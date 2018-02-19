@@ -47,7 +47,7 @@ if(Mode == "b" || Mode.charAt(0)){//checks the 1st letter in sting and forces to
 
 
 var Num_1= Number(prompt("Please enter your first number:"));
-var op = prompt("Please enter your desised operator. (Example: + , - , /");
+var op = prompt("Please enter your desised operator. (Example: + , - , /)");
 
 if(op != "sqroot"){//checks if they pick square root
 	var Num_2= Number(prompt("Please enter your second number:"));
