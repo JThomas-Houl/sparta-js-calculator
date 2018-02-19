@@ -11,9 +11,8 @@ function Multi(a, b){
     return a * b;  
 }
 
-
-function Divid(a,b){
-    return a/b;  
+function divid(a, b){
+    return a / b;  
 }
 
 function sub(a, b){
@@ -48,7 +47,7 @@ if(Mode == "b" || Mode.charAt(0)){//checks the 1st letter in sting and forces to
 
 
 var Num_1= Number(prompt("Please enter your first number:"));
-var op = prompt("Please enter your desised operator. (Example: + , - , /)");
+var op = prompt("Please enter your desised operator. (Example: + , - , /");
 
 if(op != "sqroot"){//checks if they pick square root
 	var Num_2= Number(prompt("Please enter your second number:"));
@@ -56,35 +55,35 @@ if(op != "sqroot"){//checks if they pick square root
 
 switch(op){//switch with functions alters answer and saves to console log
 	case "+":
-	alert("Your Answer is: " + add(Num_1,Num_2)); //works
+	alert("Your Answer is: " + add(Num_1,Num_2));
 	console.log(add(Num_1,Num_2));
 	break;
 
 	case "-":
-	alert("Your Answer is: " + sub(Num_1,Num_2));//works
+	alert("Your Answer is: " + sub(Num_1,Num_2));
 	console.log(sub(Num_1,Num_2));
 	break;
 
 	case "/":
-	alert("Your Answer is: " + Num_1/Num_2);
-	console.log(Divid(Num_1,Num_2));
+	alert("Your Answer is: " + divid(Num_1,Num_2));
+	console.log(divid(Num_1,Num_2));
 	break;
 
 	case "*":
-	alert("Your Answer is: " + Multi(Num_1,Num_2));//works
+	alert("Your Answer is: " + Multi(Num_1,Num_2));
 	console.log(Multi(Num_1,Num_2));
 	break;
 
 	case "**":
 	if(Mode != "B"){//checks if they have picked advance 
-		alert("Your Answer is: " + pow(Num_1,Num_2));//works
+		alert("Your Answer is: " + pow(Num_1,Num_2));
 		console.log(pow(Num_1,Num_2));
 	}
 	break;
 
 	case "sqroot":
 	if(Mode != "B"){
-		alert("Your Answer is: " + sqroot(Num_1));//works
+		alert("Your Answer is: " + sqroot(Num_1));
 		console.log(sqroot(Num_1));
 	}
 	break;
